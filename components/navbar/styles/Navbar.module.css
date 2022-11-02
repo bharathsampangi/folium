@@ -1,0 +1,17 @@
+.nav {
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    padding: 1rem 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list > li {
+    padding: .5rem 1rem;
+}
