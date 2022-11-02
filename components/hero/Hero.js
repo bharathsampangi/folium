@@ -4,7 +4,7 @@ import Folium from "../../public/images/folium-2.png"
 
 export default function Hero() {
     return (
-        <>
+        <section>
             <div className={styles.landingMain}></div>
             <div className={styles.landingText}>
                 <Image src={Folium} alt="Folium" className={styles.landingImage} />
@@ -39,6 +39,6 @@ export default function Hero() {
                     <button className={styles.listButton}>Read More</button>
                 </div>
             </div>
-        </>
+        </section>
     )
 }
