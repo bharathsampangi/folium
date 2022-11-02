@@ -16,7 +16,9 @@ export default function Location() {
                         it would be hard-pressed to find a better location in Whitefield.
                     </p>
                     <Link 
-                        href="https://maps.google.com/maps?ll=13.016592,77.762417&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=4597365471147905107">
+                        className={styles.link}
+                        href="https://maps.google.com/maps?ll=13.016592,77.762417&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=4597365471147905107"
+                    >
                         View on Google Maps
                     </Link>
                 </div>
