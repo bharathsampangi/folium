@@ -14,4 +14,12 @@
 
 .list > li {
     padding: .5rem 1rem;
+    margin: 0 .5rem;
+    font-size: .9rem;
+}
+
+.listButton {
+    background-color: #D6BA43;
+    cursor: pointer;
+    text-transform: uppercase;
 }

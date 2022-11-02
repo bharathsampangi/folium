@@ -1,12 +1,12 @@
 import React from "react"
-import Landing from "../landing/Landing"
+import Hero from "../hero/Hero"
 import Navbar from "../navbar/Navbar"
 
 const Main = () => {
     return (
         <>
             <Navbar />
-            <Landing />
+            <Hero />
         </>
     )
 }

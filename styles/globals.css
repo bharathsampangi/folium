@@ -34,8 +34,24 @@ a {
 
 @font-face {
   font-family: 'Montserrat';
+  src: url("../public/fonts/Montserrat-Medium.ttf");
+  font-weight: 300;
+  font-style: medium;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
   src: url("../public/fonts/Montserrat-Regular.ttf");
   font-weight: 400;
-  font-style: regular;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../public/fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+  font-style: bold;
   font-display: swap;
 }

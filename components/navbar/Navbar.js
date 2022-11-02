@@ -13,6 +13,7 @@ export default function Navbar() {
                 <li>The Project</li>
                 <li>The Features</li>
                 <li>The Details</li>
+                <li className={styles.listButton}>Enquire Now</li>
             </ul>
         </nav>
     )
