@@ -1,0 +1,63 @@
+.preview {
+    margin: 7.5rem auto;
+    max-width: 1200px;
+}
+
+.header {
+    font-size: 2.75rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'EBGaramond', sans-serif;
+    color: inherit;
+    line-height: 1.75rem;
+    width: 40%;
+    font-size: 1.15rem;
+    letter-spacing: .5px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.tabButtons {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .5px solid rgb(75, 74, 74);;
+}
+
+.tabButtons > button {
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    font-weight: 200;
+    font-family: inherit;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: rgb(75, 74, 74);
+}
+
+.tabContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.tabContainer > img {
+    width: 40%;
+    max-width: 600px;
+}
+
+.tabButtons .active {
+    background-color: #D6BA43;
+}
+
+.previewContainer {
+    margin-top: 3rem;
+}
