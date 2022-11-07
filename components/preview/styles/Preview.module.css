@@ -23,7 +23,7 @@
     letter-spacing: .5px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .tabButtons {
@@ -56,8 +56,26 @@
 
 .tabButtons .active {
     background-color: #D6BA43;
+    color: #fff;
 }
 
 .previewContainer {
     margin-top: 3rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #000;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #000;
+    padding: .5rem 2rem;
+    display: block;
+    color: #fff;
+    margin-top: 1.5rem;
 }

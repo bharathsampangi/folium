@@ -51,6 +51,9 @@ export default function Preview() {
                     </div>
                 }
             </div>
+            <div className={styles.buttonContainer}>
+                <button className={styles.button}>Read More</button>
+            </div>
         </section>
     )
 }
