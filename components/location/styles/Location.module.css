@@ -1,7 +1,7 @@
 .location {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0;
+    margin: 5rem 0;
 }
 
 .locationBox {
