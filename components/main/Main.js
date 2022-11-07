@@ -4,6 +4,7 @@ import Location from "../location/Location"
 import Navbar from "../navbar/Navbar"
 import Who from "../who/Who"
 import Preview from "../preview/Preview"
+import Welcome from "../welcome/Welcome"
 
 const Main = () => {
     return (
@@ -13,6 +14,7 @@ const Main = () => {
             <Location />
             <Who />
             <Preview />
+            <Welcome />
         </main>
     )
 }

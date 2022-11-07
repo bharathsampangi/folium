@@ -1,0 +1,85 @@
+.welcome {
+    margin: 3rem 0;
+    background-color: #333;
+    padding: 3rem 0;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 2.75rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1.25rem;
+    width: 40%;
+}
+
+.tabButtons {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: .5px solid #fff;
+}
+
+.tabButtons > button {
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #333;
+    font-weight: 200;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(149, 141, 141);
+    text-transform: uppercase;
+}
+
+.tabButtons > button:active {
+    border: 1px solid #fff;
+}
+
+.tabContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 0 0;
+}
+
+.tabContainer > img {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.tabButtons .active {
+    background-color: #D6BA43;
+    color: #fff;
+}
+
+.previewContainer {
+    margin-top: 2rem;
+}
+
+.caption {
+    font-family: 'EBGaramond', sans-serif;
+    color: rgb(149, 141, 141);
+    font-size: 1.05rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #D6BA43;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #D6BA43;
+    padding: .5rem 2rem;
+    display: block;
+    color: #fff;
+    margin-top: 1.5rem;
+}
