@@ -5,6 +5,7 @@ import Navbar from "../navbar/Navbar"
 import Who from "../who/Who"
 import Preview from "../preview/Preview"
 import Welcome from "../welcome/Welcome"
+import Experience from "../experience/Experience"
 
 const Main = () => {
     return (
@@ -15,6 +16,7 @@ const Main = () => {
             <Who />
             <Preview />
             <Welcome />
+            <Experience />
         </main>
     )
 }
