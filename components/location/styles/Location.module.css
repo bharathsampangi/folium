@@ -36,11 +36,27 @@
 
 .locationBox p {
     color: inherit;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
+    font-family: 'EBGaramond', sans-serif;
+    font-size: 1.15rem;
 }
 
 .link {
     text-decoration: underline;
+    margin-top: 3rem;
+    display: block;
+}
+
+.listButton {
+    background-color: #000;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #000;
+    padding: .5rem 2rem;
+    display: block;
+    color: #fff;
+    margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 1000px) {

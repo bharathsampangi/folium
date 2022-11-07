@@ -63,3 +63,11 @@ a {
   font-style: bold;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../public/fonts/EBGaramond-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
