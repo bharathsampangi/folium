@@ -50,8 +50,8 @@
 }
 
 .tabContainer > img {
-    width: 40%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .tabButtons .active {
