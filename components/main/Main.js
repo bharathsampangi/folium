@@ -15,7 +15,7 @@ const Main = () => {
             <Hero />
             <Location />
             <Who />
-            {/* <Preview /> */}
+            <Preview />
             {/* <Welcome /> */}
             {/* <Experience /> */}
             {/* <Footer /> */}

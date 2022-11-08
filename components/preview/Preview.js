@@ -11,7 +11,7 @@ export default function Preview() {
     return (
         <section className={styles.preview}>
             <div className={styles.header}>
-                HOMES, PERSONALISED TO PERFECTION.
+                HOMES, PERSONALISED TO <br/>PERFECTION.
             </div>
             <p className={styles.text}>
                 We brought in expert consultants to conceptualise unique layouts that 
