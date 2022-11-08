@@ -6,6 +6,8 @@
 
 .footerOptions {
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .footerOption1 {
@@ -71,4 +73,12 @@
     color: rgb(89, 84, 84);
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .footerOptions {
+        display: flex;
+        flex-direction: row;
+        gap: 0rem;
+    }
 }

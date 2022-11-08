@@ -2,6 +2,7 @@
     margin: 6rem auto;
     display: flex;
     justify-content: flex-end;
+    display: none;
 }
 
 .empty {
@@ -64,6 +65,12 @@
 
 .experienceImage > img {
     width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+    .experience {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 1441px) {

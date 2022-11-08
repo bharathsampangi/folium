@@ -59,6 +59,7 @@
 
 .previewContainer {
     margin-top: 2rem;
+    display: none;
 }
 
 .caption {
@@ -82,4 +83,10 @@
     display: block;
     color: #fff;
     margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .previewContainer {
+        display: block;
+    }
 }

@@ -16,9 +16,9 @@ const Main = () => {
             <Location />
             <Who />
             <Preview />
-            {/* <Welcome /> */}
-            {/* <Experience /> */}
-            {/* <Footer /> */}
+            <Welcome />
+            <Experience />
+            <Footer />
         </main>
     )
 }
