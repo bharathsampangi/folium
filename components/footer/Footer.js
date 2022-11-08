@@ -6,7 +6,7 @@ export default function Footer() {
             <div className={styles.footerOptions}>
                 <div className={styles.footerOption1}>
                     <div className={styles.head}>
-                        +91 9066392322<br/>
+                        +91 8147530047<br/>
                         bharathsampangi95@gmail.com
                     </div>
                     <div className={styles.text}>

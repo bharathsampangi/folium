@@ -60,7 +60,7 @@
     padding-top: 1.5rem;
     display: flex;
     justify-content: center;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -94,4 +94,10 @@
     color: inherit;
     border: 1px solid #D6BA43;
     padding: .5rem 2rem;
+}
+
+@media screen and (min-width: 769px) {
+    .heroList {
+        width: 75%;
+    }
 }

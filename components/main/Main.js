@@ -12,13 +12,13 @@ const Main = () => {
     return (
         <main>
             <Navbar />
-            <Hero />
-            <Location />
-            <Who />
-            <Preview />
-            <Welcome />
-            <Experience />
-            <Footer />
+            {/* <Hero /> */}
+            {/* <Location /> */}
+            {/* <Who /> */}
+            {/* <Preview /> */}
+            {/* <Welcome /> */}
+            {/* <Experience /> */}
+            {/* <Footer /> */}
         </main>
     )
 }
