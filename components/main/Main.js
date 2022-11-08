@@ -12,8 +12,8 @@ const Main = () => {
     return (
         <main>
             <Navbar />
-            {/* <Hero /> */}
-            {/* <Location /> */}
+            <Hero />
+            <Location />
             {/* <Who /> */}
             {/* <Preview /> */}
             {/* <Welcome /> */}
