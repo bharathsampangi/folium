@@ -57,14 +57,16 @@ export default function Who() {
                 <br />
             </div>
             <div className={styles.textBox}>
-                <div className={styles.header}>Who is it for?</div>
-                <p className={styles.textItem}>
-                    Folium is for everyone, no matter where they are in the journey of life.
-                    Kids, seniors, introverts, extroverts, dogs, cats, singles, couples – everyone
-                    will feel right at home. We have anticipated all of your needs in designing
-                    the neighborhood and thrown in a lot of surprises as well!
-                </p>
-                <button className={styles.listButton}>Read More</button>
+                <div className={styles.textBoxInner}>
+                    <div className={styles.header}>Who is it for?</div>
+                    <p className={styles.textItem}>
+                        No matter where you are on your life journey, Folium is for you.
+                        Whether you're a kid, senior, introvert, extrovert, dog, cat, single, or couple 
+                        everyone is welcome. The neighborhood was designed with your 
+                        needs in mind, as well as lots of surprises!
+                    </p>
+                    <button className={styles.listButton}>Read More</button>
+                </div>
             </div>
         </section>
     )

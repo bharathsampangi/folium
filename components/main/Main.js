@@ -14,7 +14,7 @@ const Main = () => {
             <Navbar />
             <Hero />
             <Location />
-            {/* <Who /> */}
+            <Who />
             {/* <Preview /> */}
             {/* <Welcome /> */}
             {/* <Experience /> */}

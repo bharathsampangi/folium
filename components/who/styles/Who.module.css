@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    flex-direction: column;
     margin: 5rem 0;
 }
 
@@ -11,9 +12,13 @@
     font-family: 'EBGaramond', sans-serif;
     color: inherit;
     line-height: 1.75rem;
-    width: 60%;
     font-size: 1.15rem;
     letter-spacing: .5px;
+}
+
+.textBoxInner {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .display {
@@ -32,7 +37,7 @@
 .slideshowContainer {
     max-width: 300px;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* Hide the images by default */
@@ -132,4 +137,11 @@
     display: block;
     color: #fff;
     margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
 }
