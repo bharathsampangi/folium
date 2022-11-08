@@ -1,4 +1,4 @@
-import {useState} from "react"
+import {useState, useEffect} from "react"
 import styles from "./styles/Preview.module.css"
 
 export default function Preview() {
@@ -6,6 +6,31 @@ export default function Preview() {
 
     const handleClick = (id) => {
         setActive(id)
+    }
+
+    let slideIndex = 1;
+    useEffect(() => {
+        if (typeof window !== "undefined") 
+            showSlides(slideIndex);
+    })
+
+    function plusSlides(n) {
+        if (typeof window !== "undefined")
+            showSlides(slideIndex += n)
+    }
+
+    function showSlides(n) {
+        let i;
+        let previews = []
+        for(i=1; i<6; i++) {
+            previews.push(window.document.getElementById(`preview-${i}`))
+        }
+        if (n > previews.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = previews.length}
+        for (i = 0; i < previews.length; i++) {
+            previews[i].style.display = "none";
+        }
+        previews[slideIndex-1].style.display = "block";
     }
 
     return (
@@ -50,6 +75,35 @@ export default function Preview() {
                         <img src="/images/Premium-4-BHK.png"/>
                     </div>
                 }
+            </div>
+            <div className={styles.slideshowContainer}>
+                <div className={`${styles.mySlides} ${styles.fade}`} id="preview-1">
+                    <div className={styles.numbertext}>1 / 5</div>
+                    <img className={styles.image} src="/images/Frame-5146.jpg" style={{ width: "100%" }} />
+                </div>
+
+                <div className={`${styles.mySlides} ${styles.fade}`} id="preview-2">
+                    <div className={styles.numbertext}>2 / 5</div>
+                    <img className={styles.image} src="/images/Smart-2-BHK.jpg" style={{ width: "100%" }} />
+                </div>
+
+                <div className={`${styles.mySlides} ${styles.fade}`} id="preview-3">
+                    <div className={styles.numbertext}>3 / 5</div>
+                    <img className={styles.image} src="/images/Smart-3-BHK.jpg" style={{ width: "100%" }} />
+                </div>
+
+                <div className={`${styles.mySlides} ${styles.fade}`} id="preview-4">
+                    <div className={styles.numbertext}>4 / 5</div>
+                    <img className={styles.image} src="/images/Classic-3-BHK.jpg" style={{ width: "100%" }} />
+                </div>
+
+                <div className={`${styles.mySlides} ${styles.fade}`} id="preview-5">
+                    <div className={styles.numbertext}>5 / 5</div>
+                    <img className={styles.image} src="/images/Premium-4-BHK.jpg" style={{ width: "100%" }} />
+                </div>
+
+                <a className={styles.prev} onClick={() => plusSlides(-1)}>&#10094;</a>
+                <a className={styles.next} onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
             <div className={styles.buttonContainer}>
                 <button className={styles.button}>Read More</button>
