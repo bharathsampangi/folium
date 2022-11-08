@@ -8,7 +8,7 @@ export default function Location() {
                 <div className={styles.locationInnerBox}>
                     <div className={styles.locationHeader}>location</div>
                     <div className={styles.locationHeader2}>
-                        smack in the middle of whitefield!
+                        right in the heart of whitefield!
                     </div>
                     <p>
                         Located just 12 mins (3.6 kms) away from ITPB, and less than 10 mins 

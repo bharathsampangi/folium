@@ -12,8 +12,8 @@ export default function Hero() {
                     <div className={styles.landingHeader}>
                         <div>What is Folium?</div>
                         <p>
-                            An exclusive residential neighbourhood that lives and breathes tranquillity. 
-                            Located in a peaceful setting right at the heart of thriving Whitefield.
+                            Located in thriving Whitefield, this quiet residential
+                            area is surrounded by beauty and tranquility.
                         </p>
                     </div>
                     <div className={styles.hero}>
