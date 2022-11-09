@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Navbar from "../../components/navbar/Navbar"
 import Footer from "../../components/footer/Footer"
+import Features from "../../components/features/Features"
 
 export default function FeaturePage() {
     return (
@@ -12,6 +13,7 @@ export default function FeaturePage() {
             </Head>
             <main>
                 <Navbar />
+                <Features />
                 <Footer />
             </main>
         </div>

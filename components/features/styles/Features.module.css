@@ -1,0 +1,21 @@
+.features {
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.featureBox {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    border-bottom: .5px solid #333;
+}
+
+.featureBox:last-child {
+    border-bottom: 0;
+}
+
+.featureItem > div {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.15rem;
+}

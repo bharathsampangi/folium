@@ -18,7 +18,11 @@ export default function Navbar() {
                         The Project
                     </Link>
                 </li>
-                <li>The Features</li>
+                <li>
+                    <Link href="/features">
+                        The Features
+                    </Link>
+                </li>
                 <li>The Details</li>
                 <li className={styles.listButton}>Enquire Now</li>
             </ul>
