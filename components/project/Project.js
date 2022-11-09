@@ -2,12 +2,12 @@ import styles from "./styles/Project.module.css"
 
 export default function Project() {
     return (
-        <div>
+        <div styles={styles.project}>
             <div className={styles.projectTitleBox}>
                 <div className={styles.projectTitleBox1}>
-                    <div className={styles.header}>The Project</div>
-                    <div className={styles.projectBox1}>
-                        Functions as a home,<br/>
+                    <div className={styles.header2}>The Project</div>
+                    <div className={styles.header}>
+                        <span className={styles.colorLight}>Functions as a home,</span><br/>
                         feels like a holiday<br/>
                         destination
                     </div>

@@ -1,16 +1,18 @@
 .projectTitleBox {
     display: flex;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 2rem auto;
 }
 
 .projectTitleBox > div {
     flex: 1;
 }
 
-.projectBox {
-    width: 60%;
-    margin: 0 auto;
+.projectBox p {
+    font-family: 'EBGaramond', sans-serif;
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    letter-spacing: .5px;
 }
 
 .header {
@@ -19,11 +21,18 @@
     text-transform: uppercase;
     font-weight: 200;
     padding-bottom: 1.25rem;
-    text-align: center;
+    /* text-align: center; */
     margin: 0 auto;
 }
 
-.projectBox1 {
-    width: 60%;
-    margin: 0 auto;
+.header2 {
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .75rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+.colorLight {
+    color: rgb(154, 145, 145);
 }
