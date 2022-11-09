@@ -4,7 +4,8 @@ import Logo from "../../public/images/logodark.svg"
 import styles from "./styles/Navbar.module.css"
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar({ active='' }) {
+    console.log("active", active)
     return (
         <nav className={styles.nav}>
             <div className={styles.logo}>
@@ -13,12 +14,12 @@ export default function Navbar() {
                 </Link>
             </div>
             <ul className={styles.list}>
-                <li>
+                <li className={`${active == "project" && styles.active}`}>
                     <Link href="/project">
                         The Project
                     </Link>
                 </li>
-                <li>
+                <li className={`${active == "features" && styles.active}`}>
                     <Link href="/features">
                         The Features
                     </Link>

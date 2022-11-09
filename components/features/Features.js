@@ -39,6 +39,23 @@ export default function Features() {
                     </div>
                 </div>
             </div>
+
+            <div className={styles.featureBox}>
+                <div className={styles.featureItem}>
+                    <img src="/images/musical-garden.svg" />
+                    <div>Musical <br/>Garden</div>
+                </div>
+                <div className={styles.featureItem}>
+                    <img src="/images/kinetic-garden.svg" />
+                    <div>Aromatic<br/>Garden</div>
+                </div>
+                <div className={styles.featureItem}>
+                    <img src="/images/alcove-garden.svg" />
+                    <div>
+                        Courtyard<br/>Garden
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
