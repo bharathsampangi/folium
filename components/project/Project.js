@@ -15,7 +15,7 @@ export default function Project() {
                 <div className={styles.projectTitleBox2}>
                     <div className={styles.projectBox}>
                         <p>
-                            Folium is &apos;grown&apos; and &apos;preserved&apos; as much as it is built. 
+                            Folium is &apos;grown&apos; and &apos;preserved&apos; as much as it is &apos;built&apos;. 
                             The neighbourhood is not just about green spaces overlapping living spaces, but 
                             a pleasant symbiosis of the two.
                         </p>

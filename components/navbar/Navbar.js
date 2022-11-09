@@ -8,14 +8,16 @@ export default function Navbar() {
     return (
         <nav className={styles.nav}>
             <div className={styles.logo}>
-                <Image src={Logo} alt="Logo" />
+                <Link href="/">
+                    <Image src={Logo} alt="Logo" />
+                </Link>
             </div>
             <ul className={styles.list}>
-                    <li>
-                        <Link href="/project">
-                            The Project
-                        </Link>
-                    </li>
+                <li>
+                    <Link href="/project">
+                        The Project
+                    </Link>
+                </li>
                 <li>The Features</li>
                 <li>The Details</li>
                 <li className={styles.listButton}>Enquire Now</li>
