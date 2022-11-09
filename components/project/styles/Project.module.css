@@ -1,0 +1,29 @@
+.projectTitleBox {
+    display: flex;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.projectTitleBox > div {
+    flex: 1;
+}
+
+.projectBox {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 2.75rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.projectBox1 {
+    width: 60%;
+    margin: 0 auto;
+}
