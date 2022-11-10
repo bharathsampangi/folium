@@ -24,7 +24,11 @@ export default function Navbar({ active='' }) {
                         The Features
                     </Link>
                 </li>
-                <li>The Details</li>
+                <li>
+                    <Link href="/enquire">
+                        The Details
+                    </Link>
+                </li>
                 <li className={styles.listButton}>Enquire Now</li>
             </ul>
         </nav>

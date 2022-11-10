@@ -1,0 +1,52 @@
+.enquire {
+    margin:2rem auto;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    padding: 2rem;
+}
+
+.label {
+    display: block;
+    color: #333;
+    font-weight: 100;
+    padding-bottom: .5rem;
+}
+
+.header {
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .75rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+.formGroup {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.formElement {
+    flex: 50%;
+}
+
+.formElement > input {
+    border: none;
+    border-bottom: 1px solid #666;
+    width: 60%;
+    background-color: inherit;
+    outline: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.button {
+    background-color: #D6BA43;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #D6BA43;
+    padding: .5rem 2rem;
+    display: block;
+    color: #fff;
+    margin-top: 1.5rem;
+}
