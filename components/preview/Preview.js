@@ -1,3 +1,4 @@
+import Link from "next/link"
 import {useState, useEffect} from "react"
 import styles from "./styles/Preview.module.css"
 
@@ -34,7 +35,7 @@ export default function Preview() {
     }
 
     return (
-        <section className={styles.preview}>
+        <section className={styles.preview} id="preview">
             <div className={styles.header}>
                 HOMES, PERSONALISED TO <br/>PERFECTION.
             </div>
@@ -106,7 +107,9 @@ export default function Preview() {
                 <a className={styles.next} onClick={() => plusSlides(1)}>&#10095;</a>
             </div>
             <div className={styles.buttonContainer}>
-                <button className={styles.button}>Read More</button>
+                <button className={styles.button}>
+                    <Link href="/project">Read More</Link>
+                </button>
             </div>
         </section>
     )

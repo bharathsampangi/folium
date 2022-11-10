@@ -56,9 +56,9 @@ export default function Welcome() {
                         </div>
                     }
                 </div>
-                <div className={styles.buttonContainer}>
+                {/* <div className={styles.buttonContainer}>
                     <button className={styles.button}>Read More</button>
-                </div>
+                </div> */}
             </div>
         </section>
     )

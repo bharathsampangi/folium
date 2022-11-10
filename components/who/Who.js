@@ -65,7 +65,7 @@ export default function Who() {
                         everyone is welcome. The neighborhood was designed with your 
                         needs in mind, as well as lots of surprises!
                     </p>
-                    <button className={styles.listButton}>Read More</button>
+                    {/* <button className={styles.listButton}>Read More</button> */}
                 </div>
             </div>
         </section>

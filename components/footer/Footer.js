@@ -1,3 +1,4 @@
+import Link from "next/link"
 import styles from "./styles/Footer.module.css"
 
 export default function Footer() {
@@ -7,30 +8,58 @@ export default function Footer() {
                 <div className={styles.footerOption1}>
                     <div className={styles.head}>
                         +91 8147530047<br/>
-                        bharathsampangi95@gmail.com
+                        chowrakesh1993@gmail.com
                     </div>
                     <div className={styles.text}>
                         Borewell Rd, Whitefield,<br/>
                         Bengaluru, 560066
                     </div>
-                    <button className={styles.button}>download brochure</button>
+                    <button className={styles.button}>
+                        <Link href="/enquire">
+                            download brochure
+                        </Link>
+                    </button>
                 </div>
                 <div className={styles.footerOption2}>
                     <div className={styles.head}>Menu</div>
                     <ul className={styles.list}>
-                        <li>enquire now</li>
-                        <li>location</li>
-                        <li>community</li>
-                        <li>types of homes</li>
-                        <li>about sumadhura</li>
+                        <li>
+                            <Link href="/enquire">
+                                enquire now
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/#location">
+                                location
+                            </Link>
+                        </li>
+                        {/* <li>community</li> */}
+                        <li>
+                            <Link href="/#preview">
+                                types of homes
+                            </Link>
+                        </li>
+                        {/* <li>about sumadhura</li> */}
                     </ul>
                 </div>
                 <div className={styles.footerOption3}>
                     <div className={styles.head}>Navigation</div>
                     <ul className={styles.list}>
-                        <li>project</li>
-                        <li>features</li>
-                        <li>details</li>
+                        <li>
+                            <Link href="/project">
+                                project
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/features">
+                                features
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/enquire">
+                                details
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

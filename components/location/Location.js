@@ -3,7 +3,7 @@ import styles from "./styles/Location.module.css"
 
 export default function Location() {
     return (
-        <section className={styles.location}>
+        <section className={styles.location} id="location">
             <div className={styles.locationBox}>
                 <div className={styles.locationInnerBox}>
                     <div className={styles.locationHeader}>location</div>
@@ -21,7 +21,7 @@ export default function Location() {
                     >
                         View on Google Maps
                     </Link>
-                    <button className={styles.listButton}>Read More</button>
+                    {/* <button className={styles.listButton}>Read More</button> */}
                 </div>
             </div>
             <div className={styles.locationMap}>

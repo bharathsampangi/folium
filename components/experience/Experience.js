@@ -1,3 +1,4 @@
+import Link from "next/link"
 import styles from "./styles/Experience.module.css"
 
 export default function Experience() {
@@ -15,7 +16,11 @@ export default function Experience() {
                     Our experience centre is all set to take you on an immersive, 
                     informative and innovative home-buying journey.
                 </p>
-                <button className={styles.button}>Schedule a Visit</button>
+                <button className={styles.button}>
+                    <Link href="/enquire">
+                        Schedule a Visit
+                    </Link>
+                </button>
             </div>
         </section>
     )
