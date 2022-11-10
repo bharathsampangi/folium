@@ -29,7 +29,11 @@ export default function Navbar({ active='' }) {
                         The Details
                     </Link>
                 </li>
-                <li className={styles.listButton}>Enquire Now</li>
+                <li className={styles.listButton}>
+                    <Link href="/enquire">
+                        Enquire Now
+                    </Link>
+                </li>
             </ul>
         </nav>
     )
