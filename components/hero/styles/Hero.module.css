@@ -1,5 +1,5 @@
 .landingMain {
-    background-image: url("/images/221021_Sumadhura_GDN_Model-A__500-X-700.jpg");
+    background-image: url("/images/221021_Sumadhura_GDN_Model-A__500-X-700.webp");
     background-size: cover;
     min-height: 70vh;
 }
@@ -107,7 +107,7 @@
         margin: 0 auto;
     }
     .landingMain {
-        background-image: url("/images/221021_Sumadhura_GDN_Model-A__2000-X-1151-scaled.jpg");
+        background-image: url("/images/221021_Sumadhura_GDN_Model-A__2000-X-1151-scaled.webp");
         min-height: 100vh;
     }
 

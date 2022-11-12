@@ -33,25 +33,25 @@ export default function Welcome() {
                     </div>
                     {active == 1 &&
                         <div className={styles.tabContainer}>
-                            <img src="/images/luxurious-home.jpg"/>
+                            <img src="/images/luxurious-home.webp"/>
                             <p className={styles.caption}>Carefully designed and crafted with high-end finishes</p>
                         </div>
                     }
                     {active == 2 &&
                         <div className={styles.tabContainer}>
-                            <img src="/images/Group-43-1.png"/>
+                            <img src="/images/Group-43-1.webp"/>
                             <p className={styles.caption}>Everything you need for an envious lifestyle</p>
                         </div>
                     }
                     {active == 3 &&
                         <div className={styles.tabContainer}>
-                            <img src="/images/Group-43-1-1.png"/>
+                            <img src="/images/Group-43-1-1.webp"/>
                             <p className={styles.caption}>Green spaces that make you forget the city&apos;s chaos and enjoy peaceful moments in nature</p>
                         </div>
                     }
                     {active == 4 &&
                         <div className={styles.tabContainer}>
-                            <img src="/images/Group-43-1-2.png"/>
+                            <img src="/images/Group-43-1-2.webp"/>
                             <p className={styles.caption}>Postcard-perfect views from your balcony</p>
                         </div>
                     }
