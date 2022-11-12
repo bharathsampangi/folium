@@ -6,7 +6,7 @@ export default function Experience() {
         <section className={styles.experience}>
             <div className={styles.empty}>
                 <div className={styles.experienceImage}>
-                    <img src="/images/homecarimg.png" />
+                    <img src="/images/homecarimg.webp" alt="Home Car" />
                 </div>
             </div>
             <div className={styles.experienceBox}>
