@@ -54,26 +54,46 @@ export default function Preview() {
                 {active == 1 &&
                     <div className={styles.tabContainer}>
                         <img src="/images/smart-1-bhk.svg"/>
+                        <div className={styles.previewDetails}>
+                            <span>SBU AREA: 936 SFT</span>
+                            <span>RERA CARPET: 641 SFT</span>
+                        </div>
                     </div>
                 }
                 {active == 2 &&
                     <div className={styles.tabContainer}>
                         <img src="/images/Smart-2-BHK.svg"/>
+                        <div className={styles.previewDetails}>
+                            <span>SBU AREA: 1248 SFT</span>
+                            <span>RERA CARPET: 847 SFT</span>
+                        </div>
                     </div>
                 }
                 {active == 3 &&
                     <div className={styles.tabContainer}>
                         <img src="/images/Smart-3-BHK.svg"/>
+                        <div className={styles.previewDetails}>
+                            <span>SBU AREA: 1545 SFT</span>
+                            <span>RERA CARPET: 1037 SFT</span>
+                        </div>
                     </div>
                 }
                 {active == 4 &&
                     <div className={styles.tabContainer}>
                         <img src="/images/Classic-3-BHK.png"/>
+                        <div className={styles.previewDetails}>
+                            <span>SBU AREA: 1687 SFT</span>
+                            <span>RERA CARPET: 1156 SFT</span>
+                        </div>
                     </div>
                 }
                 {active == 5 &&
                     <div className={styles.tabContainer}>
                         <img src="/images/Premium-4-BHK.png"/>
+                        <div className={styles.previewDetails}>
+                            <span>SBU AREA: 1930 SFT</span>
+                            <span>RERA CARPET: 1225 SFT</span>
+                        </div>
                     </div>
                 }
             </div>
