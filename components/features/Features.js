@@ -12,15 +12,15 @@ export default function Features() {
             </p>
             <div className={styles.featureBox}>
                 <div className={styles.featureItem}>
-                    <img src="/images/tree.svg" />
+                    <img src="/images/tree.svg" alt="Trees"/>
                     <div>500+ <br/>Trees</div>
                 </div>
                 <div className={styles.featureItem}>
-                    <img src="/images/birds.svg" />
+                    <img src="/images/birds.svg" alt="Birds"/>
                     <div>35+ <br/>Birds</div>
                 </div>
                 <div className={styles.featureItem}>
-                    <img src="/images/lake-facing.svg" />
+                    <img src="/images/lake-facing.svg" alt="Lake Facing"/>
                     <div>
                         200 metres long<br/>
                         lake-facing<br/>
@@ -31,33 +31,30 @@ export default function Features() {
 
             <div className={styles.featureBox}>
                 <div className={styles.featureItem}>
-                    <img src="/images/open-space.svg" />
+                    <img src="/images/open-space.svg" alt="Open Space"/>
                     <div>Over 80% <br/>open space</div>
                 </div>
                 <div className={styles.featureItem}>
-                    <img src="/images/garden.svg" />
+                    <img src="/images/garden.svg" alt="Aromatic Garden"/>
                     <div>Aromatic<br/>Garden</div>
                 </div>
                 <div className={styles.featureItem}>
-                    <img src="/images/courtyard-garden.svg" />
-                    <div>
-                        Courtyard<br/>
-                        Garden
-                    </div>
+                    <img src="/images/courtyard-garden.svg" alt="Courtyard Garden"/>
+                    <div>Courtyard<br/>Garden</div>
                 </div>
             </div>
 
             <div className={styles.featureBox}>
                 <div className={styles.featureItem}>
-                    <img src="/images/musical-garden.svg" />
-                    <div>Musical <br/>Garden</div>
+                    <img src="/images/musical-garden.svg" alt="Musical Garden"/>
+                    <div>Musical<br/>Garden</div>
                 </div>
                 <div className={styles.featureItem}>
-                    <img src="/images/kinetic-garden.svg" />
+                    <img src="/images/kinetic-garden.svg" alt="Kinetic Garden"/>
                     <div>Aromatic<br/>Garden</div>
                 </div>
                 <div className={styles.featureItem}>
-                    <img src="/images/alcove-garden.svg" />
+                    <img src="/images/alcove-garden.svg" alt="Alcove Garden"/>
                     <div>
                         Courtyard<br/>Garden
                     </div>
