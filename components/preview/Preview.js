@@ -85,8 +85,8 @@ export default function Preview() {
                     <div className={styles.captionText}>
                         Prefect for active seniors and young couples
                         <div className={styles.previewDetails}>
-                            <span>SBU AREA: 1930 SFT</span>
-                            <span>RERA CARPET: 1225 SFT</span>
+                            <span>SBU AREA: 936 SFT</span>
+                            <span>RERA CARPET: 641 SFT</span>
                         </div>
                     </div>
                 </div>
@@ -98,8 +98,8 @@ export default function Preview() {
                     <div className={styles.captionText}>
                         Perfect for families with young children and active seniors
                         <div className={styles.previewDetails}>
-                            <span>SBU AREA: 1930 SFT</span>
-                            <span>RERA CARPET: 1225 SFT</span>
+                            <span>SBU AREA: 1248 SFT</span>
+                            <span>RERA CARPET: 847 SFT</span>
                         </div>
                     </div>
                 </div>
@@ -111,8 +111,8 @@ export default function Preview() {
                     <div className={styles.captionText}>
                         Perfect for working couples with or without kids
                         <div className={styles.previewDetails}>
-                            <span>SBU AREA: 1930 SFT</span>
-                            <span>RERA CARPET: 1225 SFT</span>
+                            <span>SBU AREA: 1545 SFT</span>
+                            <span>RERA CARPET: 1037 SFT</span>
                         </div>
                     </div>
                 </div>
@@ -124,8 +124,8 @@ export default function Preview() {
                     <div className={styles.captionText}>
                         Works for families with older children
                         <div className={styles.previewDetails}>
-                            <span>SBU AREA: 1930 SFT</span>
-                            <span>RERA CARPET: 1225 SFT</span>
+                            <span>SBU AREA: 1687 SFT</span>
+                            <span>RERA CARPET: 1156 SFT</span>
                         </div>
                     </div>
                 </div>
