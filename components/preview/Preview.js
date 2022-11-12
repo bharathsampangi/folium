@@ -79,28 +79,38 @@ export default function Preview() {
             </div>
             <div className={styles.slideshowContainer}>
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-1">
+                    <div className={styles.titleText}>Smart 1 BHK</div>
                     <div className={styles.numbertext}>1 / 5</div>
                     <img className={styles.image} src="/images/Frame-5146.jpg" style={{ width: "100%" }} />
+                    <div className={styles.captionText}>Prefect for active seniors and young couples</div>
                 </div>
 
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-2">
+                    <div className={styles.titleText}>Smart 2 BHK</div>
                     <div className={styles.numbertext}>2 / 5</div>
                     <img className={styles.image} src="/images/Smart-2-BHK.jpg" style={{ width: "100%" }} />
+                    <div className={styles.captionText}>Perfect for families with young children and active seniors</div>
                 </div>
 
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-3">
+                    <div className={styles.titleText}>Smart 3 BHK</div>
                     <div className={styles.numbertext}>3 / 5</div>
                     <img className={styles.image} src="/images/Smart-3-BHK.jpg" style={{ width: "100%" }} />
+                    <div className={styles.captionText}>Perfect for working couples with or without kids</div>
                 </div>
 
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-4">
+                    <div className={styles.titleText}>Classic 3 BHK</div>
                     <div className={styles.numbertext}>4 / 5</div>
                     <img className={styles.image} src="/images/Classic-3-BHK.jpg" style={{ width: "100%" }} />
+                    <div className={styles.captionText}>Works for families with older children</div>
                 </div>
 
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-5">
+                    <div className={styles.titleText}>Premium 4 BHK</div>
                     <div className={styles.numbertext}>5 / 5</div>
                     <img className={styles.image} src="/images/Premium-4-BHK.jpg" style={{ width: "100%" }} />
+                    <div className={styles.captionText}>Works great for larger families especially those with seniors living along</div>
                 </div>
 
                 <a className={styles.prev} onClick={() => plusSlides(-1)}>&#10094;</a>

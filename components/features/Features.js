@@ -3,6 +3,13 @@ import styles from "./styles/Features.module.css"
 export default function Features() {
     return (
         <div className={styles.features}>
+            <div className={styles.header}>
+                Over 50+ vacations within your community
+            </div>
+            <p className={styles.text}>
+                The entire neighbourhood is designed around the concept 
+                of enabling refreshing breaks for your family
+            </p>
             <div className={styles.featureBox}>
                 <div className={styles.featureItem}>
                     <img src="/images/tree.svg" />

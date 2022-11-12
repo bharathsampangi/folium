@@ -6,7 +6,7 @@
 .featureBox {
     display: flex;
     justify-content: space-around;
-    padding: 2rem 0;
+    padding: 4rem 0 2rem;
     border-bottom: .5px solid #333;
 }
 
@@ -18,4 +18,25 @@
     margin-top: 1rem;
     font-weight: bold;
     font-size: 1.15rem;
+}
+
+.header {
+    font-size: 2.75rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'EBGaramond', sans-serif;
+    color: inherit;
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    letter-spacing: .5px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
 }
