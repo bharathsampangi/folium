@@ -53,7 +53,7 @@ export default function Preview() {
                 </div>
                 {active == 1 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/smart-1-bhk.svg"/>
+                        <img src="/images/smart-1-bhk.svg" alt="Smart 1 BHK"/>
                         <div className={styles.previewDetails}>
                             <span>SBU AREA: 936 SFT</span>
                             <span>RERA CARPET: 641 SFT</span>
@@ -62,7 +62,7 @@ export default function Preview() {
                 }
                 {active == 2 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/Smart-2-BHK.svg"/>
+                        <img src="/images/Smart-2-BHK.svg" alt="Smart 2 BHK"/>
                         <div className={styles.previewDetails}>
                             <span>SBU AREA: 1248 SFT</span>
                             <span>RERA CARPET: 847 SFT</span>
@@ -71,7 +71,7 @@ export default function Preview() {
                 }
                 {active == 3 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/Smart-3-BHK.svg"/>
+                        <img src="/images/Smart-3-BHK.svg" alt="Smart 3 BHK"/>
                         <div className={styles.previewDetails}>
                             <span>SBU AREA: 1545 SFT</span>
                             <span>RERA CARPET: 1037 SFT</span>
@@ -80,7 +80,7 @@ export default function Preview() {
                 }
                 {active == 4 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/Classic-3-BHK.png"/>
+                        <img src="/images/Classic-3-BHK.png" alt="Classic 3 BHK"/>
                         <div className={styles.previewDetails}>
                             <span>SBU AREA: 1687 SFT</span>
                             <span>RERA CARPET: 1156 SFT</span>
@@ -89,7 +89,7 @@ export default function Preview() {
                 }
                 {active == 5 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/Premium-4-BHK.png"/>
+                        <img src="/images/Premium-4-BHK.png" alt="Premium 4 BHK"/>
                         <div className={styles.previewDetails}>
                             <span>SBU AREA: 1930 SFT</span>
                             <span>RERA CARPET: 1225 SFT</span>
