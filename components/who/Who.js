@@ -33,22 +33,22 @@ export default function Who() {
                 <div className={styles.slideshowContainer}>
                     <div className={`${styles.mySlides} ${styles.fade}`} id="slide-1">
                         <div className={styles.numbertext}>1 / 4</div>
-                        <img src="/images/Rectangle-73.webp" style={{ width: "100%" }} />
+                        <img src="/images/Rectangle-73.webp" style={{ width: "100%" }} alt="Slide 1"/>
                     </div>
 
                     <div className={`${styles.mySlides} ${styles.fade}`} id="slide-2">
                         <div className={styles.numbertext}>2 / 4</div>
-                        <img src="/images/Rectangle-163.webp" style={{ width: "100%" }} />
+                        <img src="/images/Rectangle-163.webp" style={{ width: "100%" }} alt="Slide 2"/>
                     </div>
 
                     <div className={`${styles.mySlides} ${styles.fade}`} id="slide-3">
                         <div className={styles.numbertext}>3 / 4</div>
-                        <img src="/images/Rectangle-164.webp" style={{ width: "100%" }} />
+                        <img src="/images/Rectangle-164.webp" style={{ width: "100%" }} alt="Slide 3" />
                     </div>
 
                     <div className={`${styles.mySlides} ${styles.fade}`} id="slide-4">
                         <div className={styles.numbertext}>4 / 4</div>
-                        <img src="/images/Rectangle-165.webp" style={{ width: "100%" }} />
+                        <img src="/images/Rectangle-165.webp" style={{ width: "100%" }} alt="Slide 4" />
                     </div>
 
                     <a className={styles.prev} onClick={() => plusSlides(-1)}>&#10094;</a>
