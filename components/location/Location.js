@@ -8,12 +8,12 @@ export default function Location() {
                 <div className={styles.locationInnerBox}>
                     <div className={styles.locationHeader}>location</div>
                     <div className={styles.locationHeader2}>
-                        At the heart of the whitefield!
+                        At the heart of the Thanisandra!
                     </div>
                     <p>
-                        Located just 12 mins (3.6 kms) away from ITPB, and less than 10 mins 
+                        Located just behind Manyata Tech Park, and less than 10 mins 
                         away from most shopping, healthcare, education and hospitality centres, 
-                        it would be hard-pressed to find a better location in Whitefield.
+                        it would be hard-pressed to find a better location in Rachenahalli, Thanisandra
                     </p>
                     <Link 
                         className={styles.link}

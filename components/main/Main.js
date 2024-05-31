@@ -4,20 +4,20 @@ import Location from "../location/Location"
 import Navbar from "../navbar/Navbar"
 import Who from "../who/Who"
 import Preview from "../preview/Preview"
-import Welcome from "../welcome/Welcome"
-import Experience from "../experience/Experience"
 import Footer from "../footer/Footer"
+import About from "../about/About"
+import Enquire from "../enquire/Enquire"
 
 const Main = () => {
     return (
         <main>
             <Navbar />
             <Hero />
+            <About />
             <Location />
             <Who />
             <Preview />
-            <Welcome />
-            <Experience />
+            <Enquire />
             <Footer />
         </main>
     )

@@ -1,12 +1,13 @@
 .landingMain {
-    background-image: url("/images/221021_Sumadhura_GDN_Model-A__500-X-700.webp");
+    background-image: url("/images/epitome.jpg");
     background-size: cover;
     min-height: 70vh;
+    filter: brightness(65%)
 }
 
 .landingText {
     height: auto;
-    min-height: 48vh;
+    min-height: 20vh;
     background-color: #000;
     display: flex;
     color: #fff;
@@ -94,6 +95,14 @@
     padding: .5rem 2rem;
 }
 
+.landingImage {
+    height: 35vh;
+}
+
+.heading {
+    padding-bottom: 16px;
+}
+
 @media screen and (min-width: 768px) {
     .hero {
         display: block;
@@ -107,8 +116,8 @@
         margin: 0 auto;
     }
     .landingMain {
-        background-image: url("/images/221021_Sumadhura_GDN_Model-A__2000-X-1151-scaled.webp");
-        min-height: 100vh;
+        background-image: url("/images/epitome.jpg");
+        min-height: 70vh;
     }
 
     .heroListItem:not(:last-child){

@@ -2,7 +2,7 @@ import styles from "./styles/Enquire.module.css"
 
 export default function Enquire() {
     return (
-        <section className={styles.enquire}>
+        <section className={styles.enquire} id="enquire">
             <div className={styles.header}>Enquire Now</div>
             <form className={styles.form} action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="ec20fcf4-3183-4ea2-b3cb-2f8096c34440" />
