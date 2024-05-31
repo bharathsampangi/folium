@@ -1,35 +1,36 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../../public/images/Sumadhura-Logo.png"
+import Logo from "../../public/images/logodark.svg"
 import styles from "./styles/Navbar.module.css"
 import Link from "next/link";
 
 export default function Navbar({ active='' }) {
+    console.log("active", active)
     return (
         <nav className={styles.nav}>
             <div className={styles.logo}>
                 <Link href="/">
-                    <Image src={Logo} alt="Logo" className={styles.logoImage}/>
+                    <Image src={Logo} alt="Logo" />
                 </Link>
             </div>
             <ul className={styles.list}>
-                <li>
-                    <Link href="#about" scroll={false}>
-                        About
+                <li className={`${active == "project" && styles.active}`}>
+                    <Link href="/project">
+                        The Project
+                    </Link>
+                </li>
+                <li className={`${active == "features" && styles.active}`}>
+                    <Link href="/features">
+                        The Features
                     </Link>
                 </li>
                 <li>
-                    <Link href="#location" scroll={false}  >
-                        Location
+                    <Link href="/enquire">
+                        The Details
                     </Link>
                 </li>
-                <li>
-                    <Link href="#enquire" scroll={false}>
-                        📞 8147530047
-                    </Link>
-                </li>
-                <li className={styles.listButton} scroll={false}>
-                    <Link href="#enquire">
+                <li className={styles.listButton}>
+                    <Link href="/enquire">
                         Enquire Now
                     </Link>
                 </li>

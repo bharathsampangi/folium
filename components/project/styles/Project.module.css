@@ -1,0 +1,39 @@
+.projectTitleBox {
+    display: flex;
+    max-width: 1200px;
+    margin: 5rem auto;
+    background-color: #f9f9f9;
+}
+
+.projectTitleBox > div {
+    flex: 1;
+}
+
+.projectBox p {
+    font-family: 'EBGaramond', sans-serif;
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    letter-spacing: .5px;
+}
+
+.header {
+    font-size: 2.75rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1.25rem;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.header2 {
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .75rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+.colorLight {
+    color: rgb(154, 145, 145);
+}

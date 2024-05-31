@@ -53,8 +53,6 @@
 .tabContainer > img {
     width: 100%;
     max-width: 1200px;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
 }
 
 .tabButtons .active {
@@ -86,8 +84,6 @@
 
 .image {
     object-fit: cover;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
 }
 
 .previewDetails {

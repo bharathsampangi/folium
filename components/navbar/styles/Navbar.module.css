@@ -1,7 +1,7 @@
 .nav {
-    background-color: #fff;
+    background-color: #000;
     display: flex;
-    color: #000;
+    color: #fff;
     padding: 1rem 5vw;
     flex-direction: column;
     justify-content: center;
@@ -29,16 +29,6 @@
 
 .active {
     color: var(--primary-color);
-}
-
-.logoImage {
-    height: 70px;
-    width: 100px;
-    transform: scale(1.1);
-}
-
-.logo {
-    background-color: #fff;
 }
 
 @media screen and (min-width: 768px) {
